@@ -1,0 +1,8 @@
+#!/bin/bash
+read -p "enter the day" d
+case d in
+"mon") echo"yes it is mon";;
+"tue") echo"yes it is tues";;
+"wed") echo"yes it is wedn";;
+*) echo"invalid choice"
+esac
